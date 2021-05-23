@@ -1,7 +1,12 @@
 html, body{
     margin: 0px;
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    background-image: url(http://i.stack.imgur.com/jGlzr.png);
+    background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200,600&ssl=1);
+}
+
+h1{
+    color: white;
+    margin: 1%;
 }
 
 .login_container{
@@ -12,7 +17,7 @@ html, body{
 
 form{
     border-radius: 10px;
-    background-color: rgb(15, 20, 83);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,6 +59,6 @@ form button{
 }
 
 h3{
-    color: white;
+    color: rgb(15, 20, 83);
     margin: 10px;
 }
